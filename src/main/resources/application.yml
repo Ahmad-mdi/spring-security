@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: spring-jwt
+
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+#      ddl-auto: create
+
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring_jwt?useUnicode=yes&amp;characterEncoding=UTF-8
+    username: postgres
+    password: 100293064
+    driver-class-name: org.postgresql.Driver
+
+server:
+  port: 3030
